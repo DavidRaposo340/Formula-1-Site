@@ -1,0 +1,189 @@
+/* Style commun to all code */
+*{
+  box-sizing: border-box;
+  font-family: Monospace;
+}
+body{
+  margin: 0;
+  /*background-image: url('images/pag1/capa1.png');
+  background-color: gray;*/
+}
+h1{
+  margin-left: 250px;
+  margin-right: 250px;
+  font-size: 56px;
+  font-weight: bold;
+}
+h2{
+  margin-left: 250px;
+  margin-right: 250px;
+  font-size: 32px;
+  font-weight: bold;
+}
+h3{
+  margin-left: 250px;
+  margin-right: 250px;
+  font-size: 25px;
+  font-weight: bold;
+}
+p{
+  margin-left: 250px;
+  margin-right: 250px;
+  font-size: 25px;
+}
+
+/* Style teams */
+.redbull:hover {
+  background-color: #1E5BC6;
+}
+.ferrari:hover {
+  background-color: #ED1C24;
+}
+.mclaren:hover {
+  background-color: #F58020;
+}
+.mercedes:hover {
+  background-color: #6CD3BF;
+}
+.aston-martin:hover {
+  background-color: #2D826D;
+}
+.alfa-romeu:hover {
+  background-color: #B12039;
+}
+.alpine:hover {
+  background-color: #2293D1;
+}
+.alpha-tauri:hover {
+  background-color: #4E7C9B;
+}
+.williams:hover {
+  background-color: #37BEDD;
+}
+.haas:hover {
+  background-color: #B6BABD;
+}
+
+/* Style driver & teams "cards" */
+.flex-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 200px;
+  margin-right:200px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  /*background-color: Beige;
+  border: 2px solid black;*/
+}
+.driver-element{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.driver-element a {
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.driver-element h2 {
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 32px;
+  font-weight: bold;
+  color: black;
+  overflow: hidden;
+  text-decoration: none;
+  padding: 10px 10px;
+  text-align: center;
+}
+.driver-element img {
+  align-items: center;
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 0px;
+  padding-left: 30px;
+}
+
+/* Style the top navigation bar */
+div.topnav{
+  position: sticky;
+}
+.topnav ul {
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  border-bottom: 2px solid black;
+}
+.topnav li {
+  float: left;
+  padding: 20px 10px;
+}
+.topnav li a {
+
+  width: 250px;
+  height: 60px;
+  /*display: block;*/
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+.topnav li a:hover {
+  border-bottom: 2px solid white;
+}
+
+/* FRONT PAGE */
+/* Style image and titles */
+h1.frontpag {
+  color: white;
+  font-size: 56px;
+  font-weight: bold;
+  position: absolute;
+  top: 0px;
+  left: 16px;
+  margin-left: 0;
+  margin-right: 0;
+
+}
+h2.frontpag  {
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+  position: absolute;
+  top: 100px;
+  left: 16px;
+  margin-left: 0;
+  margin-right: 0;
+}
+.container {
+  position: relative;
+}
+
+/* CLASSIFICATION PAGE */
+/* Style table */
+.table {
+  margin-left:auto;
+  margin-right:auto;
+  align-items: center;
+  text-align: center;
+}
+th.table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}

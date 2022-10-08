@@ -1,0 +1,52 @@
+*{
+box-sizing: border-box;
+}
+/* Style the top navigation bar */
+.topnav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  border-bottom: 2px solid black;
+}
+
+.topnav li {
+  float: left;
+}
+
+.topnav li a {
+  width: 200px;
+  height: 100px;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 50px 10px;
+  text-decoration: none;
+}
+
+.topnav li a:hover {
+  border-bottom: 2px solid white;
+}
+
+.frontpag{
+  margin: 20px 20px 20px;
+}
+h1.frontpag {
+  color: white;
+  font-size: 56px;
+  font-weight: bold;
+}
+h2.frontpag  {
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+
+
+body{
+  margin: 0;
+  background-image: url('images/pag1/capa1.png');
+  background-color: gray;
+}
