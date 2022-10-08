@@ -5,6 +5,7 @@
 }
 body{
   margin: 0;
+  font-size: 20px;
   /*background-image: url('images/pag1/capa1.png');
   background-color: gray;*/
 }
@@ -32,83 +33,30 @@ p{
   font-size: 25px;
 }
 
-/* Style teams */
-.redbull:hover {
-  background-color: #1E5BC6;
+th{
+  align-items: center;
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 18px;
 }
-.ferrari:hover {
-  background-color: #ED1C24;
+td{
+  align-items: center;
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 16px;
 }
-.mclaren:hover {
-  background-color: #F58020;
-}
-.mercedes:hover {
-  background-color: #6CD3BF;
-}
-.aston-martin:hover {
-  background-color: #2D826D;
-}
-.alfa-romeu:hover {
-  background-color: #B12039;
-}
-.alpine:hover {
-  background-color: #2293D1;
-}
-.alpha-tauri:hover {
-  background-color: #4E7C9B;
-}
-.williams:hover {
-  background-color: #37BEDD;
-}
-.haas:hover {
-  background-color: #B6BABD;
-}
+table{
+  margin: 5px;
+  margin-top:25px;
+  margin-bottom:25px;
+  padding: 10px;
 
-/* Style driver & teams "cards" */
-.flex-box{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: 200px;
-  margin-right:200px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  /*background-color: Beige;
-  border: 2px solid black;*/
-}
-.driver-element{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px 5px;
-  margin-left: 5px;
-  margin-right: 5px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-.driver-element a {
-  border: 2px solid black;
-  border-radius: 5px;
-}
-.driver-element h2 {
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  margin-bottom: 0;
-  font-size: 32px;
-  font-weight: bold;
-  color: black;
-  overflow: hidden;
-  text-decoration: none;
-  padding: 10px 10px;
-  text-align: center;
-}
-.driver-element img {
-  align-items: center;
-  padding-top: 30px;
-  padding-right: 30px;
-  padding-bottom: 0px;
-  padding-left: 30px;
 }
 
 /* Style the top navigation bar */
@@ -146,6 +94,173 @@ div.topnav{
   border-bottom: 2px solid white;
 }
 
+
+/* Style teams */
+.redbull:hover {
+  background-color: #1E5BC6;
+}
+.ferrari:hover {
+  background-color: #ED1C24;
+}
+.mclaren:hover {
+  background-color: #F58020;
+}
+.mercedes:hover {
+  background-color: #6CD3BF;
+}
+.aston-martin:hover {
+  background-color: #2D826D;
+}
+.alfa-romeu:hover {
+  background-color: #B12039;
+}
+.alpine:hover {
+  background-color: #2293D1;
+}
+.alpha-tauri:hover {
+  background-color: #4E7C9B;
+}
+.williams:hover {
+  background-color: #37BEDD;
+}
+.haas:hover {
+  background-color: #B6BABD;
+}
+
+/* Style "cards" box*/
+.flex-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 200px;
+  margin-right:200px;
+  margin-top:25px;
+  margin-bottom:25px;
+
+  /*background-color: Beige;
+  border: 2px solid black;*/
+}
+
+/* Style driver "cards" */
+.driver-element{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  /*height: 410px;*/
+}
+.driver-element a {
+  border: 2px solid black;
+  border-radius: 5px;
+  height: 330px;
+  position: relative;
+}
+.driver-element h2 {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+
+  padding: 10px 0px;
+  position: absolute;
+  bottom: 0;
+
+  left: 48%;
+  transform: translate(-50%, 0);
+
+  font-size: 28px;
+  font-weight: bold;
+  color: black;
+  overflow: hidden;
+  text-decoration: none;
+  text-align: center;
+
+}
+.driver-element h3 {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+
+  padding: 10px 0px;
+  position: absolute;
+  top: 0;
+  left: 0
+
+
+  font-size: 28px;
+  font-weight: bold;
+  color: black;
+  overflow: hidden;
+  text-decoration: none;
+  text-align: center;
+
+}
+.driver-element img {
+  align-items: center;
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 0px;
+  padding-left: 30px;
+}
+
+/* Style teams "cards" */
+.team-element{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  /*height: 410px;*/
+  text-align: center;
+}
+.team-element a {
+  border: 2px solid black;
+  border-radius: 5px;
+  height: 330px;
+  width: 500px;
+  position: relative;
+}
+.team-element h2 {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+
+  width: 450px;
+  padding: 10px 0px;
+  position: absolute;
+  bottom: 0;
+
+  left: 48%;
+  transform: translate(-50%, 0);
+
+  font-size: 28px;
+  font-weight: bold;
+  color: black;
+  overflow: hidden;
+  text-decoration: none;
+  text-align: center;
+
+}
+.team-element img {
+  align-items: center;
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 0px;
+  padding-left: 30px;
+  width: 100%;
+  height: auto;
+}
+
+
 /* FRONT PAGE */
 /* Style image and titles */
 h1.frontpag {
@@ -175,15 +290,107 @@ h2.frontpag  {
 
 /* CLASSIFICATION PAGE */
 /* Style table */
-.table {
+.table_classif {
   margin-left:auto;
   margin-right:auto;
   align-items: center;
   text-align: center;
+  border-collapse: collapse;
+
 }
-th.table {
-  display: flex;
+.table_classif th {
+
   justify-content: center;
-  align-items: center;
   text-align: center;
+  background-color: black;
+  color: white;
+
+}
+.table_classif td {
+  padding: 8px;
+  text-align: center;
+}
+.table_classif tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.table_classif tr:hover {
+  background-color: #ddd;
+  /*TODO remover isto e acrescentar classes das equipas a cada linha,
+   para hover ficar com a cor da equipa*/
+}
+
+/* TEAMS PAGE */
+/* Style header */
+
+#redbull {
+  background-color: #1E5BC6;
+}
+#ferrari {
+  background-color: #ED1C24;
+}
+#mclaren {
+  background-color: #F58020;
+}
+#mercedes {
+  background-color: #6CD3BF;
+}
+#aston-martin {
+  background-color: #2D826D;
+}
+#alfa-romeu {
+  background-color: #B12039;
+}
+#alpine {
+  background-color: #2293D1;
+}
+#alpha-tauri {
+  background-color: #4E7C9B;
+}
+#williams {
+  background-color: #37BEDD;
+}
+#haas {
+  background-color: #B6BABD;
+}
+
+.header{
+  margin-left: 200px;
+  margin-right:200px;
+  margin-bottom:25px;
+
+  padding: 20px 5px;
+  text-align: center;
+}
+
+
+/*Style columns*/
+/* Create two equal columns that floats next to each other */
+
+.row{
+  margin-left: 200px;
+  margin-right:200px;
+
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 20px;
+  height: 300px; /* Should be removed. Only for demonstration */
+
+}
+.row_drivers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column img {
+  width: 100%;
+  height: auto;
 }
